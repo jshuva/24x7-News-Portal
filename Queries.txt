@@ -1,0 +1,260 @@
+CREATE TABLE news (
+news_id number primary key,
+heading varchar(100) not null,
+description varchar(3000) not null,
+image varchar(15),
+news_type varchar(20) not null
+);
+
+Create sequence news_sequence start with 1
+increment by 1
+minvalue 1
+maxvalue 10000;
+
+
+
+insert into news (news_id,heading,description,image,news_type) 
+values(news_sequence.nextval, 'Chittagong bandits active in Dhaka too',
+'<p>With at least 40 members, this gang 
+also raids houses of wealthy people, Kotwali Police Station OC AKM Mohiuddin 
+Selim said on Sunday.<br><br>They tried to rob Aparupa Jewellers and Guinea Gold 
+Jewellers at a market in the port city Saturday night.<br><br>Earlier, they had 
+hit several similar shops at different places including Feni, Jessore and 
+Comilla, Selim said.<br><br>Police have already obtained the names and addresses 
+of 20 members of the gang, he said, adding that the others will be identified 
+soon.<br><br>On Saturday, bombs hurled by these robbers killed a pedestrian and 
+injured 10 others.<br><br>Police arrested three robbers later that 
+night.<br><br>One of them, Imtiaz Uddin Babul is accused in more than 50 cases 
+including murder in Chittagong alone, the OC said. At least 50 of these were 
+robberies in the port city between 2004 and 2008.<br><br>He said Babul, who came 
+out of jail only two months ago after securing bail, is also accused in more 
+than 100 cases elsewhere in the country.</p>', 
+'news-1','Bangladesh');
+
+
+
+insert into news (news_id,heading,description,image,news_type) 
+values(news_sequence.nextval, 'Conflict between Nazrul, Nur Hossain led to seven murders: RAB',
+'<p>With at least 40 members, this gang 
+also raids houses of wealthy people, Kotwali Police Station OC AKM Mohiuddin 
+Selim said on Sunday.<br><br>They tried to rob Aparupa Jewellers and Guinea Gold 
+Jewellers at a market in the port city Saturday night.<br><br>Earlier, they had 
+hit several similar shops at different places including Feni, Jessore and 
+Comilla, Selim said.<br><br>Police have already obtained the names and addresses 
+of 20 members of the gang, he said, adding that the others will be identified 
+soon.<br><br>On Saturday, bombs hurled by these robbers killed a pedestrian and 
+injured 10 others.<br><br>Police arrested three robbers later that 
+night.<br><br>One of them, Imtiaz Uddin Babul is accused in more than 50 cases 
+including murder in Chittagong alone, the OC said. At least 50 of these were 
+robberies in the port city between 2004 and 2008.<br><br>He said Babul, who came 
+out of jail only two months ago after securing bail, is also accused in more 
+than 100 cases elsewhere in the country.</p>', 
+'news-2','Politics');
+
+
+
+insert into news (news_id,heading,description,image,news_type) 
+values(news_sequence.nextval, 'Political ease has not impacted development',
+'<p>With at least 40 members, this gang 
+also raids houses of wealthy people, Kotwali Police Station OC AKM Mohiuddin 
+Selim said on Sunday.<br><br>They tried to rob Aparupa Jewellers and Guinea Gold 
+Jewellers at a market in the port city Saturday night.<br><br>Earlier, they had 
+hit several similar shops at different places including Feni, Jessore and 
+Comilla, Selim said.<br><br>Police have already obtained the names and addresses 
+of 20 members of the gang, he said, adding that the others will be identified 
+soon.<br><br>On Saturday, bombs hurled by these robbers killed a pedestrian and 
+injured 10 others.<br><br>Police arrested three robbers later that 
+night.<br><br>One of them, Imtiaz Uddin Babul is accused in more than 50 cases 
+including murder in Chittagong alone, the OC said. At least 50 of these were 
+robberies in the port city between 2004 and 2008.<br><br>He said Babul, who came 
+out of jail only two months ago after securing bail, is also accused in more 
+than 100 cases elsewhere in the country.</p>', 
+'news-3','Economy');
+
+
+insert into news (news_id,heading,description,image,news_type) 
+values(news_sequence.nextval, 'How China spies on Hong Kongs democrats',
+'<p>With at least 40 members, this gang 
+also raids houses of wealthy people, Kotwali Police Station OC AKM Mohiuddin 
+Selim said on Sunday.<br><br>They tried to rob Aparupa Jewellers and Guinea Gold 
+Jewellers at a market in the port city Saturday night.<br><br>Earlier, they had 
+hit several similar shops at different places including Feni, Jessore and 
+Comilla, Selim said.<br><br>Police have already obtained the names and addresses 
+of 20 members of the gang, he said, adding that the others will be identified 
+soon.<br><br>On Saturday, bombs hurled by these robbers killed a pedestrian and 
+injured 10 others.<br><br>Police arrested three robbers later that 
+night.<br><br>One of them, Imtiaz Uddin Babul is accused in more than 50 cases 
+including murder in Chittagong alone, the OC said. At least 50 of these were 
+robberies in the port city between 2004 and 2008.<br><br>He said Babul, who came 
+out of jail only two months ago after securing bail, is also accused in more 
+than 100 cases elsewhere in the country.</p>', 
+'news-4','World');
+
+
+insert into news (news_id,heading,description,image,news_type) 
+values(news_sequence.nextval, 'US Navy laser weapon performing beyond expectations: official',
+'<p>With at least 40 members, this gang 
+also raids houses of wealthy people, Kotwali Police Station OC AKM Mohiuddin 
+Selim said on Sunday.<br><br>They tried to rob Aparupa Jewellers and Guinea Gold 
+Jewellers at a market in the port city Saturday night.<br><br>Earlier, they had 
+hit several similar shops at different places including Feni, Jessore and 
+Comilla, Selim said.<br><br>Police have already obtained the names and addresses 
+of 20 members of the gang, he said, adding that the others will be identified 
+soon.<br><br>On Saturday, bombs hurled by these robbers killed a pedestrian and 
+injured 10 others.<br><br>Police arrested three robbers later that 
+night.<br><br>One of them, Imtiaz Uddin Babul is accused in more than 50 cases 
+including murder in Chittagong alone, the OC said. At least 50 of these were 
+robberies in the port city between 2004 and 2008.<br><br>He said Babul, who came 
+out of jail only two months ago after securing bail, is also accused in more 
+than 100 cases elsewhere in the country.</p>', 
+'news-5','Technology');
+
+
+insert into news (news_id,heading,description,image,news_type) 
+values(news_sequence.nextval, 'New NASA spaceship successfully completes debut test run',
+'<p>With at least 40 members, this gang 
+also raids houses of wealthy people, Kotwali Police Station OC AKM Mohiuddin 
+Selim said on Sunday.<br><br>They tried to rob Aparupa Jewellers and Guinea Gold 
+Jewellers at a market in the port city Saturday night.<br><br>Earlier, they had 
+hit several similar shops at different places including Feni, Jessore and 
+Comilla, Selim said.<br><br>Police have already obtained the names and addresses 
+of 20 members of the gang, he said, adding that the others will be identified 
+soon.<br><br>On Saturday, bombs hurled by these robbers killed a pedestrian and 
+injured 10 others.<br><br>Police arrested three robbers later that 
+night.<br><br>One of them, Imtiaz Uddin Babul is accused in more than 50 cases 
+including murder in Chittagong alone, the OC said. At least 50 of these were 
+robberies in the port city between 2004 and 2008.<br><br>He said Babul, who came 
+out of jail only two months ago after securing bail, is also accused in more 
+than 100 cases elsewhere in the country.</p>', 
+'news-6','Science');
+
+
+insert into news (news_id,heading,description,image,news_type) 
+values(news_sequence.nextval, 'Cleanup of Israeli desert oil spill could take years: experts',
+'<p>With at least 40 members, this gang 
+also raids houses of wealthy people, Kotwali Police Station OC AKM Mohiuddin 
+Selim said on Sunday.<br><br>They tried to rob Aparupa Jewellers and Guinea Gold 
+Jewellers at a market in the port city Saturday night.<br><br>Earlier, they had 
+hit several similar shops at different places including Feni, Jessore and 
+Comilla, Selim said.<br><br>Police have already obtained the names and addresses 
+of 20 members of the gang, he said, adding that the others will be identified 
+soon.<br><br>On Saturday, bombs hurled by these robbers killed a pedestrian and 
+injured 10 others.<br><br>Police arrested three robbers later that 
+night.<br><br>One of them, Imtiaz Uddin Babul is accused in more than 50 cases 
+including murder in Chittagong alone, the OC said. At least 50 of these were 
+robberies in the port city between 2004 and 2008.<br><br>He said Babul, who came 
+out of jail only two months ago after securing bail, is also accused in more 
+than 100 cases elsewhere in the country.</p>', 
+'news-7','Environment');
+
+
+insert into news (news_id,heading,description,image,news_type) 
+values(news_sequence.nextval, 'UK award for ICDDR,B scientist',
+'<p>With at least 40 members, this gang 
+also raids houses of wealthy people, Kotwali Police Station OC AKM Mohiuddin 
+Selim said on Sunday.<br><br>They tried to rob Aparupa Jewellers and Guinea Gold 
+Jewellers at a market in the port city Saturday night.<br><br>Earlier, they had 
+hit several similar shops at different places including Feni, Jessore and 
+Comilla, Selim said.<br><br>Police have already obtained the names and addresses 
+of 20 members of the gang, he said, adding that the others will be identified 
+soon.<br><br>On Saturday, bombs hurled by these robbers killed a pedestrian and 
+injured 10 others.<br><br>Police arrested three robbers later that 
+night.<br><br>One of them, Imtiaz Uddin Babul is accused in more than 50 cases 
+including murder in Chittagong alone, the OC said. At least 50 of these were 
+robberies in the port city between 2004 and 2008.<br><br>He said Babul, who came 
+out of jail only two months ago after securing bail, is also accused in more 
+than 100 cases elsewhere in the country.</p>', 
+'news-8','Health');
+
+
+insert into news (news_id,heading,description,image,news_type) 
+values(news_sequence.nextval, 'Pope Francis prays in Istanbuls Blue Mosque',
+'<p>With at least 40 members, this gang 
+also raids houses of wealthy people, Kotwali Police Station OC AKM Mohiuddin 
+Selim said on Sunday.<br><br>They tried to rob Aparupa Jewellers and Guinea Gold 
+Jewellers at a market in the port city Saturday night.<br><br>Earlier, they had 
+hit several similar shops at different places including Feni, Jessore and 
+Comilla, Selim said.<br><br>Police have already obtained the names and addresses 
+of 20 members of the gang, he said, adding that the others will be identified 
+soon.<br><br>On Saturday, bombs hurled by these robbers killed a pedestrian and 
+injured 10 others.<br><br>Police arrested three robbers later that 
+night.<br><br>One of them, Imtiaz Uddin Babul is accused in more than 50 cases 
+including murder in Chittagong alone, the OC said. At least 50 of these were 
+robberies in the port city between 2004 and 2008.<br><br>He said Babul, who came 
+out of jail only two months ago after securing bail, is also accused in more 
+than 100 cases elsewhere in the country.</p>', 
+'news-9','Lifestyle');
+
+
+insert into news (news_id,heading,description,image,news_type) 
+values(news_sequence.nextval, 'South Africas Rolene Strauss wins Miss World beauty pageant in London',
+'<p>With at least 40 members, this gang 
+also raids houses of wealthy people, Kotwali Police Station OC AKM Mohiuddin 
+Selim said on Sunday.<br><br>They tried to rob Aparupa Jewellers and Guinea Gold 
+Jewellers at a market in the port city Saturday night.<br><br>Earlier, they had 
+hit several similar shops at different places including Feni, Jessore and 
+Comilla, Selim said.<br><br>Police have already obtained the names and addresses 
+of 20 members of the gang, he said, adding that the others will be identified 
+soon.<br><br>On Saturday, bombs hurled by these robbers killed a pedestrian and 
+injured 10 others.<br><br>Police arrested three robbers later that 
+night.<br><br>One of them, Imtiaz Uddin Babul is accused in more than 50 cases 
+including murder in Chittagong alone, the OC said. At least 50 of these were 
+robberies in the port city between 2004 and 2008.<br><br>He said Babul, who came 
+out of jail only two months ago after securing bail, is also accused in more 
+than 100 cases elsewhere in the country.</p>', 
+'news-10','Entertainment');
+
+
+
+CREATE TABLE admin (
+admin_id number primary key,
+admin_username varchar(15) not null,
+admin_password varchar(15) not null
+);
+
+Create sequence admin_sequence start with 1
+increment by 1
+minvalue 1
+maxvalue 10;
+
+
+CREATE TABLE reporter (
+reporter_id number primary key,
+reporter_username varchar(15) not null,
+reporter_password varchar(15) not null
+);
+
+Create sequence reporter_sequence start with 1
+increment by 1
+minvalue 1
+maxvalue 100;
+
+
+CREATE TABLE reported_news (
+r_news_id number primary key,
+r_heading varchar(100) not null,
+r_description varchar(3000) not null,
+r_image varchar(15),
+r_news_type varchar(20) not null
+);
+
+Create sequence reported_news_sequence start with 1
+increment by 1
+minvalue 1
+maxvalue 10000;
+
+
+
+insert into admin (admin_id , admin_username , admin_password ) values(admin_sequence.nextval, 'admin','123');
+
+insert into reporter(reporter_id , reporter_username , reporter_password ) values(reporter_sequence.nextval, 'reporter1','1');
+
+
+
+
+
+
+
+
+
+

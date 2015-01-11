@@ -1,0 +1,460 @@
+div{
+font-family:segoe ui;
+}
+
+
+.main_wraper{
+float :none;
+width : 1050px ; 
+height : 3070px ;
+margin :50px ;  
+border-top: blue 4px solid ;
+background-color :#BAE8FF ;
+border-bottom: darkgreen 4px solid ;
+}
+
+
+
+			/* header start*/
+			
+
+										
+.left_header{
+float : left ; 
+width : 250px ; 
+height : 140px ;
+}
+
+
+
+.bold_font{
+float : left;
+margin : 15px 0px 0px 10px ;
+padding : 0px 0px 0px 20px ;
+text-align : left ; 
+font-family: Arial;
+font-size: 56px;
+color :#006400;
+}
+
+
+
+.italic_font{
+float: left;
+margin : 0px 0px 0px 10px ;
+padding : 0px 0px 0px 20px ;
+text-align:left;
+font-family:Segoe Script;
+font-size: 28px;
+color :#009900;
+}
+
+
+
+.right_header{
+float : right;
+margin : 10px 10px 10px 0px ;  
+padding : 2px 0px 0px 10px ; 
+width : 350px ; 
+height : 200px ;
+text-align : left ;
+color : blue;
+font-size: 16px;
+}
+	
+
+	
+.menu_bar{
+float : left ;
+text-align : left ;
+margin : 0px 0px 0px 15px ;
+}
+
+
+
+.hor_list{
+margin:0px 1px 0px 0px ; 
+padding:8px 20px 8px 20px ;
+font-family:segoe ui; 
+color:white;
+background: -webkit-linear-gradient(#008000 50%,#003C00 50%); 
+background: -moz-linear-gradient(#008000 50%,#003C00 50%);
+float :left ;
+}
+
+.hor_list:hover{
+color:#8B008B;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,197,189,1)), 
+			color-stop(50%,rgba(232,108,87,1)), 
+			color-stop(51%,rgba(234,40,3,1)),
+			color-stop(75%,rgba(255,102,0,1)),
+			color-stop(100%,rgba(199,34,0,1)));
+background:	-moz-linear-gradient(top, rgba(243,197,189,1) 0%, 
+			rgba(232,108,87,1) 50%, 
+			rgba(234,40,3,1) 51%, 
+			rgba(255,102,0,1) 75%, 
+			rgba(199,34,0,1) 100%);
+}
+
+.hor_list:active{
+background : skyblue;
+}
+
+
+.breaking_news{
+float: left ;
+width : 140px ; 
+height : 30px ; 
+margin :20px 0px 0px 10px ;  
+border: red 1px solid ;
+text-align : left ; 
+padding : 4px 0px 0px 10px;
+background-color : red ;
+color : white;
+font-size: 18px;
+}
+
+
+
+.latest_news{
+float : left ;
+width : 1000px ; 
+height : 20px ;
+margin :10px 0px 0px 10px ;
+padding : 4px 0 4px 10px; 
+text-align : left ;  
+border-top: black 1px solid ; 
+border-bottom: #800000 2px solid ;
+color : red;
+font-size: 18px;
+}
+
+
+
+
+
+
+					/* header end*/
+										
+					/* left-body start*/
+
+
+
+
+					
+					
+					
+					
+.left_wraper{
+float :left;
+width : 680px ; 
+height : 1830px ;  
+}
+
+
+
+.picture{
+float:left;
+margin: 20px 0px 0px 0px ;
+padding : 0px 0px 0px 10px ; 
+text-align : left ;
+
+}
+
+
+
+
+.bar_news_wraper{
+float:left;
+height:180px ;
+width:160px ;
+margin : 10px 0px 0px 10px ;
+background-color : #00FF7F;
+}
+
+
+
+.bar{
+float: left;
+border: darkgreen 1px solid ;
+text-align : left ; 
+background-color : darkgreen; 
+width : 159px ; 
+height :18px;
+}
+
+
+
+.left_advertise1{
+float: left;
+height:75px ;
+width:333px ;
+margin: 15px 0px 0px 10px ;
+padding: 55px 0px 0px 0px ;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+background-color :#2DE88B;
+}
+
+
+
+.left_advertise2{
+float: left;
+height:75px ;
+width:333px ;
+margin: 15px 0px 0px 0px ;
+padding: 55px 0px 0px 0px ;
+border: 1px solid black;
+background-color :#2DE88B;
+}
+
+
+
+.pic_news_wraper{
+float:left;
+height :150px ;
+width : 670px ;
+margin : 10px 0px 0px 10px ;
+background-color :#61DBAD;
+color: #C71585 ;
+}
+
+
+
+.pic{
+float:left;
+height :110px ;
+width : 110px ;
+margin : 20px 0px 0px 20px ;
+}
+
+
+
+						
+						
+						
+						/* left-body end*/
+						
+						/* right-body start*/
+						
+
+
+						
+
+						
+						
+
+.right_wraper{
+float :right;
+width : 350px ; 
+min-height : 1030px ;  
+}
+
+
+.spot_light_bar{
+float :right;
+width : 330px ; 
+height : 40px ; 
+padding: 5px 0px 0px 0px;
+/*background-color: darkgreen ;*/
+margin : 20px 15px 0px 0px ;
+background-color: #669900 ;
+color :white ;
+font-family: Arial;
+font-size: 28px ;
+}
+
+
+
+.spot_light{
+float :right;
+width : 330px ; 
+height : 135px ; 
+margin : 0px 15px 0px 0px;
+border-bottom: 2px black solid ; 
+/*background-color :#19FF19;*/
+background-color :#99CC00 ;
+}
+
+
+
+.spot_light_pic{
+float:left ;
+width : 100px ; 
+height : 100px ;
+margin : 15px 0px 0px 15px ; 
+background-color: black ;
+color :white ;
+}
+
+
+
+.right_advertise1{
+float: left;
+height:90px;
+width:170px;
+margin: 40px 0px 0px 0px ;
+padding: 55px 0px 0px 0px ;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+background-color :#2DE88B;
+}
+
+
+
+.right_advertise2{
+float: left;
+height:90px;
+width:170px;
+margin: 40px 0px 0px 0px ;
+padding: 55px 0px 0px 0px ;
+border: 1px solid black;
+background-color :#2DE88B;
+}
+
+
+
+.right_news_bar{
+float :right;
+width : 330px ; 
+height : 40px ; 
+padding: 5px 0px 0px 0px ;
+margin : 40px 15px 0px 0px ;
+background-color: darkgreen ;
+color :white ;
+font-family: Arial;
+font-size: 28px ;
+}
+
+
+
+.right_news{
+float :right;
+width : 330px ; 
+height : 45px ; 
+margin : 0px 15px 0px 0px ;
+border-bottom: 2px black solid ; 
+background-color :#6BC224;
+}
+
+
+
+
+
+
+
+						/* right-body end*/
+						
+						/* bottom-body start*/
+
+						
+
+						
+
+
+						
+						
+						
+.bottom_pic{
+float:left;
+height :400px;
+width : 700px;
+margin : 20px 0px 0px 10px ;
+}
+
+
+
+.facebook{
+float :right;
+width : 315px ; 
+height : 400px ; 
+margin : 20px 10px 0px 0px ;
+background-color :White;
+}
+
+
+
+.facebook_bar{
+float :right;
+width : 315px ; 
+height : 40px ; 
+padding: 5px 0px 0px 0px;
+background-color: #3b5998 ;
+color :white ;
+font-family: Arial;
+font-size: 28px ;
+}
+
+
+
+
+
+
+
+						/* bottom-body end*/
+						
+						
+						/* footer start*/
+
+						
+
+						
+						
+						
+						
+						
+						
+.footer_bar{
+float:left ;
+width : 1045px ; 
+height : 60px  ; 
+margin: 15px 0px 0px 2px ;
+background-color:/*#934A15*/ #000099;
+font-size: 36px;
+color: white ;
+}					
+
+
+						
+.footer{
+float:left ;
+width : 1045px ; 
+height : 462px  ; 
+margin: 0px 0px 0px 2px ;
+background-color:#335CD6 /* #2A1506*/;
+}
+
+
+
+.footer_div{
+float:left;
+width : 320px;
+height : 370px;
+font-family:Ekushey Sharifa;
+margin : 15px 0px 0px 20px; 
+}
+
+
+
+.footer_list{
+color : /*#99CC00*/  white;
+font-size: 30px;
+list-style-type: none;
+padding : 10px;
+
+}
+
+.footer_list:hover{
+color:/*#00FFFF*/ #DC143C;
+	
+}
+
+
+								
+								
+								/* footer end */
+								
+								
+								

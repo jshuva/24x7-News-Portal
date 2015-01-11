@@ -1,0 +1,51 @@
+div{
+font-family:segoe ui;
+}
+
+
+
+.main_wrap{
+
+float: left;
+width : 500px ;  
+min-height : 300px  ; 
+margin: 20px 0px 0px 20px  ; 
+background-color :#BAE8FF ;
+text-align:left;
+
+
+}
+
+.head{
+text-align:center;
+}
+.pict{
+float: right;
+width : 300px;
+height : 300px;
+margin : 40px 0px 10px 20px  ;
+border : none ;
+}
+
+.menu_wrap{
+
+float: left;
+width : 400px ;  
+min-height : 300px  ; 
+margin: 20px 0px 0px 20px  ; 
+background-color :#BAE8FF ;
+border:1px solid black ;
+text-align:left;
+
+
+}
+
+
+.menu_pic{
+float: none;
+width : 200px;
+height : 200px;
+margin : 40px 0px 10px 20px  ;
+border : none ;
+border:1px solid black ;
+}
